@@ -1,13 +1,33 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/my-new-repository/static/css/main.98f61397.css",
+    "main.js": "/my-new-repository/static/js/main.eeb632d5.js",
+    "contacts.css": "/my-new-repository/static/css/contacts.7d1a1210.chunk.css",
+    "contacts.js": "/my-new-repository/static/js/contacts.e9101ad4.chunk.js",
+    "registration.css": "/my-new-repository/static/css/registration.5a5a4084.chunk.css",
+    "registration.js": "/my-new-repository/static/js/registration.15557981.chunk.js",
+    "authorization.css": "/my-new-repository/static/css/authorization.029b1834.chunk.css",
+    "authorization.js": "/my-new-repository/static/js/authorization.8272aa78.chunk.js",
+    "modal-wdw.css": "/my-new-repository/static/css/modal-wdw.837ec385.chunk.css",
+    "modal-wdw.js": "/my-new-repository/static/js/modal-wdw.8d912b28.chunk.js",
+    "static/js/798.263c40fd.chunk.js": "/my-new-repository/static/js/798.263c40fd.chunk.js",
+    "static/js/809.a285c8e6.chunk.js": "/my-new-repository/static/js/809.a285c8e6.chunk.js",
+    "index.html": "/my-new-repository/index.html",
+    "main.98f61397.css.map": "/my-new-repository/static/css/main.98f61397.css.map",
+    "main.eeb632d5.js.map": "/my-new-repository/static/js/main.eeb632d5.js.map",
+    "contacts.7d1a1210.chunk.css.map": "/my-new-repository/static/css/contacts.7d1a1210.chunk.css.map",
+    "contacts.e9101ad4.chunk.js.map": "/my-new-repository/static/js/contacts.e9101ad4.chunk.js.map",
+    "registration.5a5a4084.chunk.css.map": "/my-new-repository/static/css/registration.5a5a4084.chunk.css.map",
+    "registration.15557981.chunk.js.map": "/my-new-repository/static/js/registration.15557981.chunk.js.map",
+    "authorization.029b1834.chunk.css.map": "/my-new-repository/static/css/authorization.029b1834.chunk.css.map",
+    "authorization.8272aa78.chunk.js.map": "/my-new-repository/static/js/authorization.8272aa78.chunk.js.map",
+    "modal-wdw.837ec385.chunk.css.map": "/my-new-repository/static/css/modal-wdw.837ec385.chunk.css.map",
+    "modal-wdw.8d912b28.chunk.js.map": "/my-new-repository/static/js/modal-wdw.8d912b28.chunk.js.map",
+    "798.263c40fd.chunk.js.map": "/my-new-repository/static/js/798.263c40fd.chunk.js.map",
+    "809.a285c8e6.chunk.js.map": "/my-new-repository/static/js/809.a285c8e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.98f61397.css",
+    "static/js/main.eeb632d5.js"
   ]
 }
