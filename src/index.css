@@ -1,4 +1,12 @@
-@import-normalize; /* bring in normalize.css styles */
+@import 'modern-normalize/modern-normalize.css';
+
+:root {
+  --border-color: #d1d0d0;
+  --warning-color: #d44444b6;
+  --edit-color: #d4b244;
+  --accent-color: #2e7fcf;
+  --accent-color-transparent: #1a75cfb3;
+}
 
 body {
   margin: 0;
@@ -9,7 +17,78 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body.modal-is-open {
+  overflow: hidden;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navLink {
+  font-size: 20px;
+  color: black;
+}
+
+.activeNavLink {
+  composes: navLink;
+  color: var(--accent-color);
+}
+
+.loader {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+  opacity: 0.7;
+}
+
+.mainLoader {
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+
+  opacity: 0.7;
+}
+
+.sectionTitle {
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.sectionTitleIsHidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
