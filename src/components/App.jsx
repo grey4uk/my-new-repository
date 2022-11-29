@@ -53,14 +53,7 @@ export default function App() {
 
       <Suspense
         fallback={
-          <Watch
-            height={80}
-            width={80}
-            radius={45}
-            color='#1a75cfb3'
-            wrapperClass='mainLoader'
-            ariaLabel='loading-indicator'
-          />
+          <h1>Loading...</h1>
         }>
         <main>
           <Routes>
