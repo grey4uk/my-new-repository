@@ -1,8 +1,7 @@
 import React, { useEffect, lazy, Suspense } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
-import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
-import { Watch } from 'react-loader-spinner';
+
 import PrivateRoute from './Routes/PrivateRoute';
 import PublicRoute from './Routes/PublicRoute';
 import { refreshCurrentUser } from 'redux/auth/authOperations';
@@ -47,14 +46,7 @@ export default function App() {
   useEffect(()=>{fetch('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5').then(r=>r.json()).then(console.log).catch(console.log)},[])
 
   return isRefreshingUser ? (
-    <Watch
-      height={80}
-      width={80}
-      radius={45}
-      color='#1a75cfb3'
-      wrapperClass='mainLoader'
-      ariaLabel='loading-indicator'
-    />
+  <h1>Loading...</h1>
   ) : (
     <>
       <Header />
