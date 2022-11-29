@@ -1,5 +1,4 @@
-import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
-import { Watch } from 'react-loader-spinner';
+
 import Section from 'components/Section';
 import FormAddContact from 'components/FormAddContact';
 import ContactsList from 'components/ContactsList';
@@ -17,14 +16,7 @@ export default function PhonebookView() {
 
       <Section title="Contacts" isHidden={false}>
         {isFetching ? (
-          <Watch
-            height={48}
-            width={48}
-            radius={45}
-            color="#1a75cfb3"
-            wrapperClass="loader"
-            ariaLabel="loading-indicator"
-          />
+         <h1>loading...</h1>
         ) : (
           <FilterInput />
         )}
