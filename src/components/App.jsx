@@ -43,6 +43,8 @@ export default function App() {
   useEffect(() => {
     dispatch(refreshCurrentUser());
   }, [dispatch]);
+  
+  useEffect(()=>{fetch('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5').then(r=>r.json()).then(console.log).catch(console.log)},[])
 
   return isRefreshingUser ? (
     <Watch
